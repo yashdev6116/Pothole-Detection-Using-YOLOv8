@@ -1,0 +1,8 @@
+train: "C:/Users/yashp/PotHole Detection/train/images"
+val: "C:/Users/yashp/PotHole Detection/valid/images"
+
+# YASH DEV PROJECT
+nc: 1
+names: ['pothole']
+
+
