@@ -1,6 +1,9 @@
 import streamlit as st
 import tempfile
 import cv2
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
+
 import numpy as np
 from PIL import Image
 from ultralytics import YOLO
